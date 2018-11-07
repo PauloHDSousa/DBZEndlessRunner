@@ -30,7 +30,6 @@ public class Player : MonoBehaviour {
 
     private void Update()
     {
-
         if (health <= 0) {
             spawner.SetActive(false);
             scoreManager.SetActive(false);
@@ -40,7 +39,6 @@ public class Player : MonoBehaviour {
 
         healthDisplay.text = health.ToString();
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
-
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             startTouchPosition = Input.GetTouch(0).position;

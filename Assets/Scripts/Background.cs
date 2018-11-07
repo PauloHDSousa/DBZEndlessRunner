@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Background : MonoBehaviour {
 
-
     public float speed;
     public float Xend;
     public float Xstart;
