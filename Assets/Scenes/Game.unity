@@ -1148,11 +1148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8402dd77dfe0dba47ab38bc30248a5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 180
   increment: 5
   maxY: 5
   minY: -5
-  health: 3
+  health: 5
   moveEffect: {fileID: 1414099114102734, guid: b39c016ae3b89bf439f1499ba32b9b53, type: 2}
   camAnim: {fileID: 519420030}
   healthDisplay: {fileID: 1451656552}
